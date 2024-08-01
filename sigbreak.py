@@ -6,7 +6,7 @@ import sys
 import curses
 
 class SigBreak:
-    RATIO = 0.16
+    RATIO = 0.2
 
     # states
     WORKING = 0
