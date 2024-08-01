@@ -7,6 +7,8 @@ with fixed breaks. Instead, it lets you switch between work and
 break modes freely, while still ensuring that you take breaks for a
 fraction of the time you've worked.
 
+![SIGBREAK timer in work mode](img/demo.png)
+
 This project is under active development. Expect bugs and incompatibilities.
 
 ## Usage
