@@ -4,7 +4,7 @@ allowing you to balance the time you work and take breaks. It is based on the
 [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), but
 unlike traditional Pomodoro timers, SIGBREAK doesn't interrupt your thought process
 with fixed breaks. Instead, it lets you switch between work and
-break modes freely, while still ensuring that you take breaks for at least a
+break modes freely, while still ensuring that you take breaks for a
 fraction of the time you've worked.
 
 This project is under active development. Expect bugs and incompatibilities.
