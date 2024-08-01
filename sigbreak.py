@@ -86,16 +86,16 @@ class SigBreak:
         stdscr.addstr(5, 0, "[q]uit         [space] toggle work/break")
 
         if self.state == self.SHOULD_WORK:
-            stdscr.addstr(2, 0, "[w]ork time")
-            stdscr.addstr(2, 15, "[b]reak time")
+            stdscr.addstr(2, 0, "[w]ork")
+            stdscr.addstr(2, 15, "[b]reak")
 
         if self.state == self.WORKING:
-            stdscr.addstr(2, 0, "[w]ork time", curses.A_BOLD)
-            stdscr.addstr(2, 15, "[b]reak time")
+            stdscr.addstr(2, 0, "[w]ork", curses.A_BOLD)
+            stdscr.addstr(2, 15, "[b]reak")
 
         if self.state == self.ON_BREAK:
-            stdscr.addstr(2, 0, "[w]ork time")
-            stdscr.addstr(2, 15, "[b]reak time", curses.A_BOLD)
+            stdscr.addstr(2, 0, "[w]ork")
+            stdscr.addstr(2, 15, "[b]reak", curses.A_BOLD)
         stdscr.refresh()
 
 
