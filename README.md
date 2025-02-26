@@ -9,8 +9,6 @@ fraction of the time you've worked.
 
 ![SIGBREAK timer in work mode](img/demo.png)
 
-This project is under active development. Expect bugs and incompatibilities.
-
 ## Usage
 Install [Python 3](https://www.python.org/). Then simply run `python
 sigbreak.py` in your favorite terminal (tested on
